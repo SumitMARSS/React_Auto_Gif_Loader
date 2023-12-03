@@ -1,0 +1,42 @@
+
+
+
+
+.random-gif{
+    min-height: 400px;
+    height: max-content;
+    width: 70%;
+    background-color: rgb(57, 185, 57);
+    border-radius: 0.7rem;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+  }
+  
+  .random-gif div{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-decoration: underline;
+  }
+  
+  .random-gif button{
+    all: unset;
+    background-color: rgb(206, 214, 221);
+    width: 80%;
+    height: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+  }
+
+  
+img{
+  border-radius: 0.7rem;
+  margin-bottom: 0.5rem;
+}
